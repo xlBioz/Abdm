@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Teste de xlBioz",
+   Name = "A Bizarre day Modded Script by xlBioz",
    LoadingTitle = "A Bizarre Day Modded",
    LoadingSubtitle = "by xlBioz",
    ConfigurationSaving = {
@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "Key | Youtube Hub",
       Subtitle = "Key System",
@@ -30,8 +30,8 @@ local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
-   Title = "Script claramente executado ",
-   Content = "Foi feito por xlBioz lol",
+   Title = "Script executed ",
+   Content = "Scripy made by xlBioz lol",
    Duration = 5,
    Image = 13047715178,
    Actions = { -- Notification Buttons
@@ -332,7 +332,7 @@ end
 })
 
 local Button = MainTab:CreateButton({
-   Name = "The World Over Heaven (Tentando Resolver!)",
+   Name = "The World Over Heaven (You need the world!)",
    Callback = function()
     local args = {
 	"Item Usage",
@@ -402,7 +402,7 @@ end
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Hamon (Tentando Resolver!)",
+   Name = "Hamon (Trying to fix!)",
    Callback = function()
     local args = {
 	"Item Usage",
@@ -458,7 +458,7 @@ end
 })
 
 local Button = MainTab:CreateButton({
-   Name = "C-moon Alternate Universe (Tentando Resolver!)",
+   Name = "C-moon Alternate Universe (You need WS:AU!)",
    Callback = function()
     local args = {
 	"Item Usage",
