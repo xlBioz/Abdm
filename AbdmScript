@@ -402,7 +402,7 @@ end
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Hamon (Trying to fix!)",
+   Name = "Hamon (You need Standless!)",
    Callback = function()
     local args = {
 	"Item Usage",
